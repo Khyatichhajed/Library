@@ -68,7 +68,7 @@ function addBook(e){
 function getBookFromInput(){
  ;const title = `Title: ${document.querySelector("#name").value}`;
  const author = `Author: ${document.querySelector("#author").value}`;
- const pages = `Total-Pages: ${document.querySelector("#pagesNo")}`;
+ const pages = `Total-Pages: ${document.querySelector("#pageNo")}`;
  const isRead = document.querySelector("#isRead").checked;
  return new Book(title, author, pages, isRead);
 }
