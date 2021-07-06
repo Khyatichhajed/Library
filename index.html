@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Library</title>
+</head>
+<body>
+  <h1 class="heading">Library</h1>
+  <main class="main">
+    
+   
+   <lable class="show-btn shobtnrm">Add New Book</lable>
+   
+   
+  </main>
+  
+    <div class="card dis-none">
+      <button class="close-btn">x</button>
+     <form class="js-popup-form">
+      <h2 class="addBook">Add New Book</h2>
+     
+      <div class="inputs" >
+        <input id="name"
+        type="text" placeholder="TITLE" required>
+      </div>
+      <div class="inputs">
+        <input  id="author" type="text" placeholder="Author" required>
+      </div>
+      <div class="inputs" ><input type="number" id="pageNo" placeholder="PAGES" required></div>
+      <div class="check">
+        <label for="read">Read ?</label>
+        <input id="isRead"class="checkbox"type="checkbox">
+      </div>
+      <div class="check">
+        <button class="btn" type="submit">Add</button>
+      </div>
+    </form>
+  </div>
+  
+<div class="js-overlay">
+  <!-- <div class="books-grid js-books-grid"></div> -->
+  
+</div>
+<div class="books-grid js-books-grid"></div>
+ <script src="script.js"></script>
+ 
+</body>
+</html>

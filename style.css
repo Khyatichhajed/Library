@@ -1,0 +1,126 @@
+html{
+  background: rgb(241, 158, 191);
+  top: 0;
+  left: 0;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:5vh;
+  box-sizing: border-box;
+  background:-webkit-linear-gradient(right,rgb(141, 233, 233),rgb(255, 181, 219));
+  transform: all 0.4s;
+ /* border-radius: 100%; */
+}
+.card{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background: rgb(216, 206, 194);
+  border:1px rgb(110, 101, 102) solid;
+  border-radius: 8px;
+  padding: 10px;
+}
+.inputs{
+  margin-bottom: 8px;
+}
+input{
+  outline: none;
+  border-style: none;
+  border: 1px solid grey;
+}
+.check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  background: -webkit-linear-gradient(top,rgb(255, 165, 165),rgb(88, 70, 73));
+  font-weight:500;
+  box-shadow: 10px 510px 10px rgb(56, 58, 53);
+}
+.dis-none{
+  display: none;
+} 
+.checkbox{
+  cursor: pointer;
+}
+.center{
+  display: flex;
+}
+.show-btn{
+  /* position:relative; */
+  cursor: pointer;
+  background:-webkit-linear-gradient(left,pink,rgb(199, 199, 231));
+  left:50%;
+  position: absolute;
+  transform: translate(-50%);
+  padding: 30px;
+  margin-bottom: 30%;
+  border-radius: 10px;
+}
+.show-btn:hover{
+  box-shadow: 0px 1px 20px rgb(36, 32, 32);
+}
+.close-btn{
+  cursor: pointer;
+  background: none;
+  border-style: none;
+  box-shadow: none;
+  float: right;
+  font-size: 20px;
+  color: red;
+}
+.close-btn:hover{
+  color: blue;
+}
+.js-books-grid{
+  /* color: aliceblue; */
+  /* position: relative; */
+  display:flex;
+  font-family:Arial, Helvetica, sans-serif;
+  width: 100%;
+  /* font-size: 20px; */
+  font-weight: px;
+  flex-direction:column; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  /* border: 2px solid sienna; */
+  /* transform: translate(-50%,-50%); */
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+.button--light-green{
+  background: springgreen;
+  padding: 6px;
+  width: 40%;
+}
+.button--light-red{
+  background: rgb(255, 152, 152);
+  padding: 6px;
+  width: 100%;
+}
+.button--red{
+  background: red;
+  padding: 6px;
+  width: 100%;
+}
+label{
+  border:1px solid;
+}
